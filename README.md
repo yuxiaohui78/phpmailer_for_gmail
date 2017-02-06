@@ -73,5 +73,7 @@ The username is your email address, the password is the app password in PHPMaile
 #Reference
 >https://github.com/PHPMailer/PHPMailer
 
+>https://packetzoom.com/blog/youre-using-okhttp-wrong-same-thing-with-volley-picasso-retrofit-fresco-et-al.html
+
 >http://stackoverflow.com/questions/16048347/send-email-using-gmail-smtp-server-through-php-mailer
                
