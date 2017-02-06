@@ -4,15 +4,19 @@ This code is used for sending email through gmail. The code is using the library
 
 #1. How to use the code
 
+Modify the file mailsender.php with your own email address and app password as a sender.
+
+The password is NOT the login password of gmail. It is the APP password that Gmail allows user's app to log in the smtp server to send email. Read the step #2 to set Gmail and get the 16-digit APP password.
+
 ```
 <?php
 require_once('PHPMailer-master/PHPMailerAutoload.php');
 
 //This php script is used for sending email through gmail smtp server.
 
-$gmailUsername = "littlefish0908@gmail.com";
-$gmailAppPassword = "aaqkkgapkwuhxlzw";
-$sender = "Developer Team";
+$gmailUsername = "littlefish0908@gmail.com"; //Need to be modified according to your gmail address
+$gmailAppPassword = "aaqkkgapkwuhxlzw";//Need to be modified according to your App password.
+$sender = "Developer Team"; 
 
 //$body uses <br> or <br/> instead of \n or \r
 function sendEmail ($revEmailAddr, $subject, $body){
