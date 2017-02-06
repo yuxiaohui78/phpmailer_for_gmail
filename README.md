@@ -3,7 +3,7 @@ This code is used for sending email through gmail. The code is using the library
 >https://github.com/PHPMailer/PHPMailer
 
 #1. How to use the code
-
+ 
 Modify the file mailsender.php with your own email address and app password as a sender.
 
 The password is NOT the login password of gmail. It is the APP password that Gmail allows user's app to log in the smtp server to send email. 
