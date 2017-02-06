@@ -6,7 +6,9 @@ This code is used for sending email through gmail. The code is using the library
 
 Modify the file mailsender.php with your own email address and app password as a sender.
 
-The password is NOT the login password of gmail. It is the APP password that Gmail allows user's app to log in the smtp server to send email. Read the step #2 to set Gmail and get the 16-digit APP password.
+The password is NOT the login password of gmail. It is the APP password that Gmail allows user's app to log in the smtp server to send email. 
+
+Read the step #2 to set Gmail and get the 16-digit APP password.
 
 ```
 <?php
