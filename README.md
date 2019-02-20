@@ -2,7 +2,7 @@
 This code is used for sending email through gmail. The code is using the library PHPMailer.
 >https://github.com/PHPMailer/PHPMailer
 
-#1. How to use the code
+# 1. How to use the code
  
 Modify the file mailsender.php with your own email address and app password as a sender.
 
@@ -50,19 +50,19 @@ $mail->AddAddress($revEmailAddr, "");
 ?>
 ```
 
-#2.	How to set gmail for phpmailer
+# 2.	How to set gmail for phpmailer
 
-###1.	Go to Sign-in & security -> Connected apps & sites
+### 1.	Go to Sign-in & security -> Connected apps & sites
 
-###2.	Enable “Allow less secure apps”
+### 2.	Enable “Allow less secure apps”
 
-###3.	Go to Sign-in & security -> Signing in to Google
+### 3.	Go to Sign-in & security -> Signing in to Google
 
      Enable “2-Step Verification”
 
-###4.	After step 3. You will receive an email for setting the 2-step verification.
+### 4.	After step 3. You will receive an email for setting the 2-step verification.
 
-###5.	Then go to the following link to generate an app password
+### 5.	Then go to the following link to generate an app password
 
 >https://security.google.com/settings/security/apppasswords
 
@@ -70,7 +70,7 @@ Then you can use this app password to connect to smtp server of Gmail with phpMa
                
 The username is your email address, the password is the app password in PHPMailer.
 
-#Reference
+# Reference
 >https://github.com/PHPMailer/PHPMailer
 
 >https://packetzoom.com/blog/youre-using-okhttp-wrong-same-thing-with-volley-picasso-retrofit-fresco-et-al.html
